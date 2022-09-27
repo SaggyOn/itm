@@ -1,8 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import { VueTypedJs } from 'vue-typed-js'
+
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
+Vue.use(VueTypedJs)
+
 import 'remixicon/fonts/remixicon.css'
 
 import 'bootstrap/dist/css/bootstrap.css'

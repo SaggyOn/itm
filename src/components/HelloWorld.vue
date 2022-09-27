@@ -1,70 +1,50 @@
 <template>
   <div>
-    <section>
-      <div class="container">
+    <section class="banner-hero-section">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col">
-            <figure>
-              <img
-                src="../assets/images/Scholarship-banner-new.png"
-                alt="logo"
-                class="img-fluid"
-              />
-              <h4 width="169" height="172" class="about-banner"></h4>
-            </figure>
+          <div class="col-lg-12 px-0">
+            <div class="banner-hero-img">
+              <figure>
+                <img
+                  src="../assets/images/Scholarship-banner-new.png"
+                  alt="logo"
+                  class="img-fluid"
+                />
+              </figure>
+            </div>
+            <div class="banner-hero-text">
+              <h1>
+                You'll do PGDM once, 
+                <vue-typed-js :strings="['MAKE IT COUNT', 'MAKE IT BEST']" :typeSpeed="200" :loop="true">
+                  <span class="typing"></span>
+                </vue-typed-js>
+              </h1>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="maincolor">
+    <section class="about-sm-content section-bg">
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-md-5">
-            <p class="text-white">
+            <p class="animate__animated animate__bounce">
               Business education is at the very core of ITM Group of
               Institutions, and ITM Business School is our flagship institution.
               Since 1991, thousands of graduates have moved into successful
               careers and our Alumni network is spread across the globe.
             </p>
           </div>
-          <div class="col-md-4">
-            <p style="margin-bottom: 2px" class="text-white">
-              <strong>Campuses at :</strong> <br />
-              <button type="button" class="btn btn-outline-light">
-                Navi Mumbai
-              </button>
-              <button type="button" class="btn btn-outline-light">
-                Vadodara
-              </button>
-              <button type="button" class="btn btn-outline-light">
-                Raipur
-              </button>
-            </p>
-          </div>
-          <div class="col-md-3">
-            <strong class="text-white">Follow Us :</strong>
-            <div class="trapdoor">
-              <div class="top door"></div>
-              <div class="bottom door"></div>
-              <a
-                href=""
-                class="twitter-follow-button"
-                data-show-count="false"
-                data-size="large"
-                data-dnt="false"
-                >@itm</a
-              >
-            </div>
-          </div>
         </div>
       </div>
     </section>
-    <section class="works">
+    <section class="works py-xl-5">
       <div class="container">
         <div class="custom-card">
-          <div class="row pt-3 pt-xl-5 row-gap">
+          <div class="row">
             <div class="col-6 col-md-6 col-lg-3">
-              <div class="media">
+              <div class="animate__animated animate__bounce media">
                 <figure class="icon icon-light-green">
                   <img
                     src="https://dg1xqmhtoint1.cloudfront.net/img/common-icon/certificate.webp?"
@@ -73,14 +53,14 @@
                   />
                 </figure>
                 <div>
-                  <span class="text-grey font-small-1">
+                  <span class="text-grey">
                     AICTE, AIU and NBA-Approved
                   </span>
                 </div>
               </div>
             </div>
             <div class="col-6 col-md-6 col-lg-3">
-              <div class="media">
+              <div class="animate__animated animate__bounce media">
                 <figure class="icon icon-light-blue">
                   <img
                     src="https://dg1xqmhtoint1.cloudfront.net/img/common-icon/tiesup.webp?"
@@ -89,14 +69,14 @@
                   />
                 </figure>
                 <div>
-                  <span class="text-grey font-small-1">
+                  <span class="text-grey">
                     650+ Placements Partners
                   </span>
                 </div>
               </div>
             </div>
             <div class="col-6 col-md-6 col-lg-3">
-              <div class="media">
+              <div class="animate__animated animate__bounce media">
                 <figure class="icon icon-dark-blue">
                   <img
                     src="https://dg1xqmhtoint1.cloudfront.net/img/common-icon/certificate.webp?"
@@ -105,14 +85,14 @@
                   />
                 </figure>
                 <div>
-                  <span class="text-grey font-small-1">
+                  <span class="text-grey">
                     5 Campuses &amp; Seasoned Faculties
                   </span>
                 </div>
               </div>
             </div>
             <div class="col-6 col-md-6 col-lg-3">
-              <div class="media">
+              <div class="animate__animated animate__bounce media">
                 <figure class="icon icon-red">
                   <img
                     src="https://dg1xqmhtoint1.cloudfront.net/img/common-icon/tiesup.webp?"
@@ -121,7 +101,7 @@
                   />
                 </figure>
                 <div>
-                  <span class="text-grey font-small-1"> 45000+ Alumni </span>
+                  <span class="text-grey"> 45000+ Alumni </span>
                 </div>
               </div>
             </div>
@@ -131,13 +111,7 @@
     </section>
 
     <section
-      class="
-        clients_logo
-        section-padding
-        dstudentsarefrom
-        bg-gray
-        dignifiedshow
-      "
+      class="clients_logo section-padding dstudentsarefrom bg-gray dignifiedshow"
       id="placements"
       style="clear: both"
     >
@@ -271,7 +245,15 @@
 </template>
 
 <script>
-export default {};
+  import { VueTypedJs } from 'vue-typed-js'
+
+export default {
+  components: {
+    VueTypedJs
+
+    // PromoSlider
+  },
+};
 </script>
 
 <style scoped>
@@ -280,4 +262,4 @@ export default {};
 <style lang="scss">
 @import "../assets/css/styles.scss";
 </style>
-
+<style></style>
