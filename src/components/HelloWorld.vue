@@ -24,6 +24,24 @@
                 Raipur
               </button>
             </p>
+            <div class="trapdoor">
+              <div class="top door"></div>
+              <div class="bottom door"></div>
+              <a
+                href=""
+                class="twitter-follow-button"
+                data-show-count="false"
+                data-size="large"
+                data-dnt="false"
+                >Follow @itm</a
+              >
+            </div>
+            <h4
+                width="169"
+                  height="172"
+                  class="about-banner"
+                  >
+                  </h4>
           </div>
         </div>
       </div>
@@ -98,48 +116,7 @@
         </div>
       </div>
     </section>
-    <section>
-      <div class="container h-100">
-        <div class="row align-middle">
-          <div class="col-md-6 col-lg-4 column">
-            <div class="card gr-1">
-              <div class="txt">
-                <h1>BRANDING AND CORPORATE DESIGN</h1>
-                <p>Visual communication and problem-solving</p>
-              </div>
-              <a href="#">more</a>
-              <div class="ico-card">
-                <i class="fa fa-rebel"></i>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 column">
-            <div class="card gr-2">
-              <div class="txt">
-                <h1>Web Front-End SOLUTIONS</h1>
-                <p>How design is implemented on the web.</p>
-              </div>
-              <a href="#">more</a>
-              <div class="ico-card">
-                <i class="fa fa-codepen"></i>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 column">
-            <div class="card gr-3">
-              <div class="txt">
-                <h1>UX/UI WEBsite AND MOBILE app</h1>
-                <p>User Interface and User Experience Design.</p>
-              </div>
-              <a href="#">more</a>
-              <div class="ico-card">
-                <i class="fa fa-empire"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
     <section
       class="
         clients_logo
@@ -309,6 +286,48 @@
         </div>
       </div>
     </section>
+    <section>
+      <div class="container h-100">
+        <div class="row align-middle">
+          <div class="col-md-6 col-lg-4 column">
+            <div class="card gr-1">
+              <div class="txt">
+                <h1>Highest Salary Package</h1>
+                <p>21 LPA</p>
+              </div>
+              <a href="">more</a>
+              <div class="ico-card">
+                <i class="fa fa-rebel"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 column">
+            <div class="card gr-2">
+              <div class="txt">
+                <h1>Average Salary Package</h1>
+                <p>8.65 LPA</p>
+              </div>
+              <a href="">more</a>
+              <div class="ico-card">
+                <i class="fa fa-codepen"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 column">
+            <div class="card gr-3">
+              <div class="txt">
+                <h1>Students placed</h1>
+                <p>100%.</p>
+              </div>
+              <a href="">more</a>
+              <div class="ico-card">
+                <i class="fa fa-empire"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -317,8 +336,9 @@ export default {};
 </script>
 
 <style scoped>
-@import "../assets/css/styles.scss";
 @import "../assets/css/style.css";
 </style>
 <style lang="scss">
+@import "../assets/css/styles.scss";
 </style>
+
