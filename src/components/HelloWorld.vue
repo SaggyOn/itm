@@ -3,7 +3,7 @@
     <section class="maincolor">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-5">
             <p class="text-white">
               Business education is at the very core of ITM Group of
               Institutions, and ITM Business School is our flagship institution.
@@ -11,7 +11,7 @@
               careers and our Alumni network is spread across the globe.
             </p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <p style="margin-bottom: 2px" class="text-white">
               <strong>Campuses at :</strong> <br />
               <button type="button" class="btn btn-outline-light">
@@ -24,6 +24,10 @@
                 Raipur
               </button>
             </p>
+            <h4 width="169" height="172" class="about-banner"></h4>
+          </div>
+          <div class="col-md-3">
+            <strong class="text-white">Follow Us :</strong>
             <div class="trapdoor">
               <div class="top door"></div>
               <div class="bottom door"></div>
@@ -36,12 +40,6 @@
                 >Follow @itm</a
               >
             </div>
-            <h4
-                width="169"
-                  height="172"
-                  class="about-banner"
-                  >
-                  </h4>
           </div>
         </div>
       </div>
@@ -128,10 +126,22 @@
       id="placements"
       style="clear: both"
     >
+      <div class="container-heading">
+        <div class="box">
+          <div class="title">
+            <span class="block"></span>
+            <h1>Get Dream Job<span></span></h1>
+          </div>
+
+          <div class="role">
+            <div class="block"></div>
+            <p>with ITM</p>
+          </div>
+        </div>
+      </div>
       <div class="container">
         <div class="row">
           <div class="text-center col-sm-12">
-            <h3>Get your Dream Job!</h3>
             <p>
               Our amazing placement team has cracked 100% placement every year
               since 2015 and managed this feat even through the pandemic. With
@@ -141,83 +151,43 @@
               international opportunities right to you.
             </p>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="live-border">
-              <div class="border top">
-                <div class="bar"></div>
+          <div class="container h-100">
+            <div class="row align-middle">
+              <div class="col-md-6 col-lg-4 column">
+                <div class="card gr-1">
+                  <div class="txt">
+                    <h1>Highest Salary Package</h1>
+                    <p>21 LPA</p>
+                  </div>
+                  <a href="">more</a>
+                  <div class="ico-card">
+                    <i class="fa fa-rebel"></i>
+                  </div>
+                </div>
               </div>
-              <div class="border right">
-                <div class="bar"></div>
+              <div class="col-md-6 col-lg-4 column">
+                <div class="card gr-2">
+                  <div class="txt">
+                    <h1>Average Salary Package</h1>
+                    <p>8.65 LPA</p>
+                  </div>
+                  <a href="">more</a>
+                  <div class="ico-card">
+                    <i class="fa fa-codepen"></i>
+                  </div>
+                </div>
               </div>
-              <div class="border bottom">
-                <div class="bar"></div>
-              </div>
-              <div class="border left">
-                <div class="bar"></div>
-              </div>
-              <div class="item text-center mb-md50">
-                <h3><span class="">21</span></h3>
-                <h6>LPA/Highest Salary Package</h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="live-border">
-              <div class="border top">
-                <div class="bar"></div>
-              </div>
-              <div class="border right">
-                <div class="bar"></div>
-              </div>
-              <div class="border bottom">
-                <div class="bar"></div>
-              </div>
-              <div class="border left">
-                <div class="bar"></div>
-              </div>
-              <div class="item text-center mb-md50">
-                <h3><span class="">8.65</span></h3>
-                <h6>LPA/Average Salary Package</h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="live-border">
-              <div class="border top">
-                <div class="bar"></div>
-              </div>
-              <div class="border right">
-                <div class="bar"></div>
-              </div>
-              <div class="border bottom">
-                <div class="bar"></div>
-              </div>
-              <div class="border left">
-                <div class="bar"></div>
-              </div>
-              <div class="item text-center mb-md50">
-                <h3><span class="">100%</span></h3>
-                <h6>Students placed</h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="live-border">
-              <div class="border top">
-                <div class="bar"></div>
-              </div>
-              <div class="border right">
-                <div class="bar"></div>
-              </div>
-              <div class="border bottom">
-                <div class="bar"></div>
-              </div>
-              <div class="border left">
-                <div class="bar"></div>
-              </div>
-              <div class="item text-center mb-md50">
-                <h3><span class="">650+</span></h3>
-                <h6>Company Visits for placements</h6>
+              <div class="col-md-6 col-lg-4 column">
+                <div class="card gr-3">
+                  <div class="txt">
+                    <h1>Students placed</h1>
+                    <p>100%.</p>
+                  </div>
+                  <a href="">more</a>
+                  <div class="ico-card">
+                    <i class="fa fa-empire"></i>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
