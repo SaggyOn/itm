@@ -1,5 +1,21 @@
 <template>
   <div>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <figure>
+              <img
+                src="../assets/images/Scholarship-banner-new.png"
+                alt="logo"
+                class="img-fluid"
+              />
+              <h4 width="169" height="172" class="about-banner"></h4>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="maincolor">
       <div class="container">
         <div class="row">
@@ -24,7 +40,6 @@
                 Raipur
               </button>
             </p>
-            <h4 width="169" height="172" class="about-banner"></h4>
           </div>
           <div class="col-md-3">
             <strong class="text-white">Follow Us :</strong>
@@ -37,7 +52,7 @@
                 data-show-count="false"
                 data-size="large"
                 data-dnt="false"
-                >Follow @itm</a
+                >@itm</a
               >
             </div>
           </div>
@@ -153,7 +168,7 @@
           </div>
           <div class="container h-100">
             <div class="row align-middle">
-              <div class="col-md-6 col-lg-4 column">
+              <div class="col-md-6 col-lg-3 column">
                 <div class="card gr-1">
                   <div class="txt">
                     <h1>Highest Salary Package</h1>
@@ -161,11 +176,11 @@
                   </div>
                   <a href="">more</a>
                   <div class="ico-card">
-                    <i class="fa fa-rebel"></i>
+                    <i class="ri-money-dollar-circle-line"></i>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4 column">
+              <div class="col-md-6 col-lg-3 column">
                 <div class="card gr-2">
                   <div class="txt">
                     <h1>Average Salary Package</h1>
@@ -173,126 +188,80 @@
                   </div>
                   <a href="">more</a>
                   <div class="ico-card">
-                    <i class="fa fa-codepen"></i>
+                    <i class="ri-ancient-pavilion-fill"></i>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4 column">
+              <div class="col-md-6 col-lg-3 column">
                 <div class="card gr-3">
                   <div class="txt">
-                    <h1>Students placed</h1>
+                    <h1>Highest Salary Package</h1>
                     <p>100%.</p>
                   </div>
                   <a href="">more</a>
                   <div class="ico-card">
-                    <i class="fa fa-empire"></i>
+                    <i class="ri-hard-drive-line"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 column">
+                <div class="card gr-1">
+                  <div class="txt">
+                    <h1>Highest Salary Package</h1>
+                    <p>21 LPA</p>
+                  </div>
+                  <a href="">more</a>
+                  <div class="ico-card">
+                    <i class="ri-money-dollar-circle-line"></i>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="specializationwiseplacement">
-          <div class="container">
-            <h3>Placements Stats</h3>
-            <table>
-              <tr>
-                <td>Specialization</td>
-                <td>Highest Salary</td>
-                <td>Average Salary</td>
-              </tr>
-              <tr>
-                <td>Marketing</td>
-                <td>₹21L</td>
-                <td>₹8.5L</td>
-              </tr>
-              <tr>
-                <td>Finance</td>
-                <td>₹14L</td>
-                <td>₹8L</td>
-              </tr>
-              <tr>
-                <td>Digital Marketing &amp; Transformation</td>
-                <td>₹8.5L</td>
-                <td>₹7.2L</td>
-              </tr>
-              <tr>
-                <td>Supply Chain &amp; Operation Management</td>
-                <td>₹12.4L</td>
-                <td>₹6.5L</td>
-              </tr>
-              <tr>
-                <td>Human Resource &amp; Management</td>
-                <td>₹8.5L</td>
-                <td>₹6.5L</td>
-              </tr>
-              <tr>
-                <td>International Business</td>
-                <td>₹15L</td>
-                <td>₹7.75L</td>
-              </tr>
-              <tr>
-                <td>Retail Management &amp; Marketing</td>
-                <td>₹10.4L</td>
-                <td>₹7L</td>
-              </tr>
-              <tr>
-                <td>Financial Markets</td>
-                <td>₹10.8L</td>
-                <td>₹6.5L</td>
-              </tr>
-              <tr>
-                <td>Business Analytics</td>
-                <td>₹12.5L</td>
-                <td>₹7.5L</td>
-              </tr>
-              <tr>
-                <td>Fintech</td>
-                <td>₹9.2L</td>
-                <td>₹7L</td>
-              </tr>
-            </table>
           </div>
         </div>
       </div>
     </section>
     <section>
-      <div class="container h-100">
-        <div class="row align-middle">
-          <div class="col-md-6 col-lg-4 column">
-            <div class="card gr-1">
-              <div class="txt">
-                <h1>Highest Salary Package</h1>
-                <p>21 LPA</p>
-              </div>
-              <a href="">more</a>
-              <div class="ico-card">
-                <i class="fa fa-rebel"></i>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 column">
-            <div class="card gr-2">
-              <div class="txt">
-                <h1>Average Salary Package</h1>
-                <p>8.65 LPA</p>
-              </div>
-              <a href="">more</a>
-              <div class="ico-card">
-                <i class="fa fa-codepen"></i>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 column">
-            <div class="card gr-3">
-              <div class="txt">
-                <h1>Students placed</h1>
-                <p>100%.</p>
-              </div>
-              <a href="">more</a>
-              <div class="ico-card">
-                <i class="fa fa-empire"></i>
-              </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Top Reasons why to Join ITM</h1>
+            <div>
+              <p>
+                Get your fundas right! Start your journey with our Foundation
+                program, which helps you learn the basics, from quantitative
+                techniques to accounting and finance and IT skills.
+              </p>
+              <p>
+                Get your fundas right! Start your journey with our Foundation
+                program, which helps you learn the basics, from quantitative
+                techniques to accounting and finance and IT skills.
+              </p>
+              <p>
+                Real, actual industry experience! After you’ve completed our
+                unique 5 months full-time, paid industry internship, you’ll be
+                armed with solid experience and know-how on your chosen sector
+                and career track.
+              </p>
+              <p>
+                Grow up, Grow strong! Over 200 hours of personal and
+                professional development coursework are integrated via the
+                innovative TALEWIND training program. Talewind combines
+                essential hard & soft skills, general knowledge and transforms
+                you into a confident, knowledgeable, & sophisticated manager.
+              </p>
+              <p>
+                Ready…Set…Launch! Dream job? Consider it delivered! Over 650
+                companies visit ITM’s campuses each year for final placements.
+                Some of India’s biggest companies, and even global giants are
+                regular campus recruiters.
+              </p>
+              <p>
+                Build a rocking network! With 45,000 alumni, you can find an
+                ITMite in almost every major company, in very senior positions.
+                Your next big contract or big career move can be just a phone
+                call away!
+              </p>
             </div>
           </div>
         </div>
